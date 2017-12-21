@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kagura.mk
+    $(LOCAL_DIR)/omni_kagura.mk
+
