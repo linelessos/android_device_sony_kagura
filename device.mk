@@ -25,6 +25,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Inherit from tone-common
 $(call inherit-product, device/sony/tone-common/tone.mk)
 
+# Focus calibration
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/etc/tof_focus_calibration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tof_focus_calibration.xml
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
@@ -44,6 +48,12 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service
+
+# Camera Augmented Sensing Helper
+PRODUCT_PACKAGES += \
+   libpolyreg \
+   cashsvr \
+   libcashctl
 
 # Input
 PRODUCT_COPY_FILES += \

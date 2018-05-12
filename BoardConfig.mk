@@ -33,6 +33,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 23857184768
 
 # Inherit cash
 TARGET_USES_CASH := true
+TARGET_USES_CASH_EXTENSION := true
 
 # Inherit from the proprietary version
 -include vendor/sony/kagura/BoardConfigVendor.mk
