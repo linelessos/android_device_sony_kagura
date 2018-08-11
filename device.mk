@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,6 +24,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Inherit from tone-common
 $(call inherit-product, device/sony/tone-common/tone.mk)
+
+# Vendor properties
+-include $(LOCAL_PATH)/vendor_prop.mk
 
 # Audio
 PRODUCT_COPY_FILES += \
