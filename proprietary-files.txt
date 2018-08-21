@@ -1272,7 +1272,7 @@ lib/libfpc_oem.so
 lib/lib_fpc_tac_shared.so
 
 # NFC firmware
-lib64/hw/libpn547_fw.so:vendor/firmware/libpn547_fw.so
+lib64/hw/libpn547_fw.so:vendor/lib/libpn547_fw.so
 
 # Sensors
 vendor/etc/sensors/sensor_def_qcomdev.conf
