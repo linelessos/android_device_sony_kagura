@@ -1210,6 +1210,9 @@ vendor/lib/libmmcamera_imx318.so
 vendor/lib/libmmcamera_imx362.so
 vendor/lib/libmmcamera_imx378.so
 
+# Camera module
+vendor/lib/hw/camera.qcom.so
+
 # Camera modules (SoMC)
 vendor/lib/libsomc_alfortrsc.so
 vendor/lib/libsomc_alfort.so
