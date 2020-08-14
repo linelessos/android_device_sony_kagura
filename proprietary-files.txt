@@ -1,6 +1,6 @@
 # Bluetooth
-etc/firmware/BCM4349B1.hcd
-etc/firmware/BCM4359C0.hcd
+etc/firmware/BCM4349B1.hcd:vendor/firmware/BCM4349B1.hcd
+etc/firmware/BCM4359C0.hcd:vendor/firmware/BCM4359C0.hcd
 
 # Camera cacao modules
 lib64/libcacao_client.so
