@@ -25,6 +25,9 @@ $(call inherit-product, device/sony/kagura/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit gapps
+$(call inherit-product, vendor/aosp/config/gms.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_kagura
 PRODUCT_DEVICE := kagura
