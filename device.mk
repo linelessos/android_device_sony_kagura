@@ -27,7 +27,7 @@ $(call inherit-product, device/sony/tone-common/tone.mk)
 
 # Focus calibration
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vendor/etc/tof_focus_calibration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tof_focus_calibration.xml
+    $(LOCAL_PATH)/rootdir/vendor/etc/tof_focus_calibration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tof_focus_calibration.xml
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
