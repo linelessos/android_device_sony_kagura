@@ -11,7 +11,6 @@ lib/libtrueportrait.so
 vendor/bin/mm-qcamera-daemon
 vendor/lib64/libcameralight.so
 vendor/lib64/libcammw_util.so
-vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib/libcameralight.so
 vendor/lib/libcammw.so
@@ -71,7 +70,6 @@ vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmm-omxcore.so
 vendor/lib/libmmosal_proprietary.so
 vendor/lib/libmm-qcamera.so
 vendor/lib/libmmqjpeg_codec.so
