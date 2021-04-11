@@ -22,6 +22,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from kagura device
 $(call inherit-product, device/sony/kagura/device.mk)
 
+# Twrp
+$(call inherit-product, device/sony/kagura/recovery/twrp.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := omni_kagura
 PRODUCT_DEVICE := kagura
