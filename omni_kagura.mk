@@ -15,8 +15,10 @@
 # limitations under the License.
 #
 
+# Inherit AOSP configurations
+$(call inherit-product, build/target/product/embedded.mk)
+
 # Inherit from our custom product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from kagura device
