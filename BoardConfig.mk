@@ -48,7 +48,6 @@ BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET := 0x02000000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
 
 # Kernel cmdline
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom
@@ -58,6 +57,9 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237 ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += cma=32M@0-0xffffffff
 BOARD_KERNEL_CMDLINE += coherent_pool=2M
 BOARD_KERNEL_CMDLINE += zram.backend=z3fold
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/sony/msm8996
+TARGET_KERNEL_CONFIG := tone_kagura_defconfig
 
 # Encryption
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
