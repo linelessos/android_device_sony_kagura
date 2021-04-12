@@ -34,11 +34,4 @@ PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_GMS_CLIENTID_BASE := android-sony
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="kagura_dsds" \
-    PRIVATE_BUILD_DESC="kagura_dsds-user 8.0.0 OPR1.170623.026 1 dev-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Sony/kagura_dsds/kagura_dsds:8.0.0/OPR1.170623.026/1:user/dev-keys"
-
 TARGET_VENDOR := Sony

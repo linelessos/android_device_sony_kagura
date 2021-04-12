@@ -20,12 +20,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc \
     sys.fpc.tu.disabled=0
 
-# SEMC props
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.semc.product.model=F8332 \
-    ro.semc.ms_type_id=PM-0980-BV \
-    ro.semc.product.name=Xperia XZ \
-    ro.semc.product.device=F83
-
 # USB
 PRODUCT_PROPERTY_OVERRIDES += ro.usb.pid_suffix=1E7
